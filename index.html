@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./styles/images/favicon-32x32.png">
+  <!-- FONTS Monserrat 500, 700 / Fraunces 700-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body class= "d-flex justify-content-center align-items-center min-vh-100 bg-cream">
+
+  <main>
+    <div class= "card w-20 m-auto rounded-lg shadow-lg font-sans-serif d-md-flex flex-md-row">
+      <picture>
+        <source srcset= "./styles/images/image-product-desktop.jpg" media="(min-width: 768px)">
+        <img src= "./styles/images/image-product-mobile.jpg" class= "img-fluid img-thumbnail p-0 card-img-top" alt= "bottle of perfume">
+      </picture>
+
+      <div class= "card-body p-4 d-md-flex flex-md-column justify-content-md-around">
+        <span class= "fs-7 text-dark-grayish-blue text-uppercase letter-space-5 mt-4">
+          Perfume
+        </span>
+        <h2 class= "card-title mt-2 fs-1 font-serif fw-bold text-very-dark-blue">
+          Gabrielle Essence Eau De Parfum
+        </h2>
+        <p class= "fs-8 text-dark-grayish-blue ">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>  
+        <div class= "d-flex align-items-center">
+          <span class= "fs-1 font-serif text-dark-cyan">
+            $149.99
+          </span>
+         
+          <span class= " fs-6 mx-3 text-dark-grayish-blue text-decoration-line-through">
+            $169.99
+          </span>
+        </div> 
+        <button class= "btn w-100 mt-2 py-2 text-white bg-dark-cyan shadow-sm my-md-4">
+          <img src= "./styles/images/icon-cart.svg" alt= "icon cart" class= "p-2">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
