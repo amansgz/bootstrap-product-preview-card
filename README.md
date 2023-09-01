@@ -1,11 +1,4 @@
-# 👩‍💻 Frontend Mentor - Product preview card component solution
-
-[Frontend Mentor challenges](https://www.frontendmentor.io/) help you improve your coding skills by building realistic projects.
-
-This is a solution for [Product Preview Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) challenge.
-
-![Design preview for the Product preview card component coding challenge](./styles/images/preview.png)
-
+# 👩‍💻 Product preview card component 
 
 ## The challenge
 
@@ -22,10 +15,19 @@ Users should be able to:
 - Bootstrap
 - Mobile-first workflow
 
-## Live site solution
 
-[Live site](https://amansgz.github.io/bootstrap-product-preview-card/) deployed with GitHub Pages.
+<div>
+  <h3>
+    <a href= "https://amansgz.github.io/bootstrap-product-preview-card/">
+      Live site
+    </a>
+    <span> | </span>
+    <a href= "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Author
+![Design preview for the Product preview card component coding challenge](./styles/images/preview.png)
 
-- Frontend Mentor - [@amansgz](https://www.frontendmentor.io/profile/amansgz)
+This application/site was created as a submission to <a href= "https://www.frontendmentor.io/">Frontend Mentor Challenges</a> 
